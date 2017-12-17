@@ -23,6 +23,8 @@ tell application "System Events" to tell process "Safari"
 	end tell
 end tell
 
+set counter to 0
+
 repeat 2 times
 	tell application "Safari"
 		set currLink to link & counter
