@@ -1,0 +1,1 @@
+# AppleScript-Bing-Search-auto
