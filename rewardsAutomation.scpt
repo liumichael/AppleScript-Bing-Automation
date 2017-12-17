@@ -2,7 +2,7 @@ property counter : 0
 property link : "http://www.bing.com/search?q="
 property mobile : "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.3 Mobile/14E277 Safari/603.1.30"
 
-repeat 3 times
+repeat 30 times
 	tell application "Safari"
 		set currLink to link & counter
 		open location currLink
@@ -25,7 +25,7 @@ end tell
 
 set counter to 0
 
-repeat 2 times
+repeat 20 times
 	tell application "Safari"
 		set currLink to link & counter
 		open location currLink
